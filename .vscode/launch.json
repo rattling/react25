@@ -1,13 +1,25 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "Debug React App",
-        "type": "chrome",
-        "request": "launch",
-        "url": "http://localhost:3000",
-        "webRoot": "${workspaceFolder}/project-01-basic-todo/src"
-      }
-    ]
-  }
-  
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug React App",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/project-01-basic-todo/src"
+    },
+    {
+      "name": "Debug Vanilla JS App",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5500/js_learning/todo_app/",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Current JS File (Node)",
+      "program": "${file}"
+    }    
+  ]
+}
